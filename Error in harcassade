@@ -48,7 +48,7 @@ while True:
         
 face_data=np.asarray(face_data)
 
-face_data=face_data.reshape(face_data.shape[0],-1)
+face_data=face_data.reshape((face_data.shape[0],-1))
 
 np.save(data_path+"manik"+'.npy',face_data)
 
