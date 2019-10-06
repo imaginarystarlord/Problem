@@ -28,7 +28,7 @@ while True:
         
         cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,255),2)
         
-        face_section=frame[y-10:y+h-10,x-10:x+w-10]
+        face_section=frame[y-10:y+h+10,x-10:x+w+10]
         
         face_section=cv2.resize(face_section,(100,100))
         
